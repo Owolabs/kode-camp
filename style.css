@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container{
+min-height: 100vh;
+width: 100%;
+background-color:whitesmoke;
+display: flex;
+justify-content: space-between;
+
+}
+.left{
+    width: 40%;
+    min-height:100vh;
+   background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("imgk/pexels-andres-ayrton-6578392 1.png");
+   background-position: center;
+  background-repeat: no-repeat; 
+  background-size:cover;
+  padding-top: 30px;
+  padding-left: 10px;
+  position: relative;
+
+ 
+}
+h1{
+    color: #f0f3f5;
+    margin: 10px 20px;
+   
+
+   
+}
+.left .cap{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    color: aliceblue;
+    flex-direction: column;
+    margin-top: 43vh;
+    padding: 30px 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    line-height: 30px;
+    /* font-stretch: 100%; */
+    
+    
+   
+
+
+
+}
+.left .cohort{
+    text-transform: uppercase;
+    
+  
+}
+ 
+
+
+.right{
+    width: 60%;
+    min-height: 100vh;
+  padding: 30px;
+    
+}
+.right h2{
+    color: #447aee;
+    font-size: 30px;
+    background-color: aliceblue;
+    display: inline-block;
+}
+.image{
+    display: flex;
+    align-items: self-end;
+    justify-content: flex-end;
+}
+form{
+    margin-top: 20px;
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    display: block;
+     margin: 5px;
+    
+
+}
+input{
+    margin: 5px;
+    width: 20vw;
+}
+.row .left-form{
+    width: 50%;
+}
+.row .right-form{
+    width: 50%;
+}
+select{
+    width: 20vw;
+}
+.bio{
+    width: 100%;
+    margin:5px;
+    padding: 7px;
+    height: auto;
+    min-width: 100px;
+    resize: vertical;
+}
+ div.box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+  
+ }
+
+.account{
+    color: aliceblue;
+    background-color: #184ec2;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px 40px;
+   
+}

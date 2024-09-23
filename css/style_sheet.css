@@ -1,0 +1,10 @@
+.container{
+    display: block;
+    background-color: brown;
+    padding: 20px;
+    width: 40%;
+    height: 80vh;
+}
+.item1{
+    background-color: brown;
+}
